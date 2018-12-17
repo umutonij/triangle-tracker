@@ -79,7 +79,7 @@ button{
     width: 0;
     border-bottom: 400px solid brown;
     border-right: 400px solid transparent;
-    border-left: 400px solid transparent;
+    border-left: 400px solid transparent; 
 }
 #isosceles{
     width: 0;
