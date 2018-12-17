@@ -12,7 +12,7 @@ function submit(){
     else if(side1+side2) <= side3 || (side1 + side3) <= side2 || (side + side3) <= side1{
         alert("Not a definite TRiangle");
     }
-    else(
+    else {
         alert("This is a Scalene Triangle")
-    )
+    }
 }
