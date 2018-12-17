@@ -27,16 +27,32 @@ h1{
   h3{
       color: brown;
       position: relative;
-      right: -50px;
+      right: -90px;
   }
+  ul{
+    position: relative;
+    right: -150px; 
+  }
+
+  h4{
+    text-shadow: 2px 2px 5px green;
+    font-size: 30px;
+  }
+  h5{
+    text-shadow: 2px 2px 5px #ce6588;
+    font-size: 30px; 
+    position: relative;
+    right: -40px;  
+  }
+
 #triangle{
     margin: 30px;
-    padding: 30px;
     display:flex;
   flex-direction: column;
   position: relative;
-        right: -30px;
+        right: -80px;
 }
+
 #triangle p{
     margin-left: 180px;
     position: relative;
@@ -44,21 +60,30 @@ h1{
         top: -150px;
          
 }
+#side1,#side2,#side3{
+    padding: 10px;
+    margin: 5px;
+}
+
+button{
+    padding: 10px;
+    color:rgb(12, 34, 160);
+}
 #eqltrl{
     width: 0;
-    border-bottom: 100px solid #000;
-    border-right: 100px solid transparent;
-    border-left: 100px solid transparent;
+    border-bottom: 400px solid brown;
+    border-right: 400px solid transparent;
+    border-left: 400px solid transparent;
 }
 #isosceles{
     width: 0;
-    border-bottom: 100px solid #000;
-    border-right: 100px solid transparent;
-    border-left: 200px solid transparent;
+    border-bottom: 300px solid brown;
+    border-right: 300px solid transparent;
+    border-left: 400px solid transparent;
 }
 #scalene{
     width: 0;
-    border-bottom: 300px solid #000;
+    border-bottom: 300px solid brown;
     border-right: 400px solid transparent;
     border-left: 200px solid transparent;
 }
