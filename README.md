@@ -19,6 +19,7 @@ This is an application that determines whether a set of three numbers can either
 ## Support and contact details
 
 I Encourage you to contact me when you get a question through:
+
 . Email: *jacquelineumutoni13@gmail.com*
 . Phone: 0787683456
 . Adress: Kigali-Rwanda
