@@ -8,28 +8,36 @@
       <h1>TRIANGLE TRACKER</h1>
       <h2>Description of a Triangle</h2>
         <p>A triangle is a polygon with three edges and three vertices. It is one of the basic shapes in geometry.</p>
-      <h3>Types of a triangle</h3>
+      <h3><em>Types of a triangle</em></h3>
         <ul>
             <li>Equilateral</li>
             <li>Isosceles</li>
             <li>Scalene</li>
         </ul>
+
+      <div id="triangle">
       <h4>Equilateral</h4>
         <img src="images/eqltrl.gif">
         <p>In geometry, an equilateral triangle is a triangle in which all three sides are equal. and all three internal angles are also congruent to each other and are each 60°.</p>
+
       <h4>Isosceles</h4>
         <img src="images/isosceles.png">
         <p>In geometry, an isosceles triangle is a triangle that has two sides of equal length. Sometimes it is specified as having exactly two sides of equal length, and sometimes as having at least two sides of equal length, the latter version thus including the equilateral triangle as a special case.</p>
-      <h4>Scalene</h4>
-        <img src="images/scalene.jpg">
-        <p>A scalene triangle is a triangle that has three unequal sides, such as that one illustrated above.</p>
 
-        <script src="triangle.js"></script>
-     <p id ="triangle">Please enter the length of each side:
-         <input id="number1" type="number" placeholder="length of the side 1">
-         <input id="number2" type="number" placeholder="length of the side 2">
-         <input id="number3" type="number" placeholder="length of the side 3">
-         <button type="button" onclick="submit()">submit</button>
-     </p>
+      <h4>Scalene</h4>
+        <img src="images/scalene.png">
+        <p>A scalene triangle is a triangle that has three unequal sides. However, the sum of any two sides of the triangle must be greater than the third side.</p>
+
+      </div>
+        <script src="scripts.js"></script>
+
+      <h5>Identification of each Triangle</h5>
+
+       <p id ="ex">Please enter the length of each side:<br>
+         <input id="side1" type="number" placeholder="length of the side1"><br>
+         <input id="side2" type="number" placeholder="length of the side2"><br>
+         <input id="side3" type="number" placeholder="length of the side3"><br>
+         <button type="button" onclick="getResult()">Result</button>
+       </p>
   </body>
 </html>
