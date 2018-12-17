@@ -10,6 +10,7 @@ This is an application that determines whether a set of three numbers can either
 ## Setup/Installation Requirements
 * A running network connection to the internet
 * A web browser
+* Check out the link here that directs you to the Triangle tracker application: https://umutonij.github.io/triangle-tracker/
 
 ## Technologies Used
 * HTML
