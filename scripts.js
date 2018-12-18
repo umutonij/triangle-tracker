@@ -14,6 +14,7 @@ function getResult(){
     }
     else if((side1+side2) <= side3 || (side1 + side3) <= side2 || (side2 + side3) <= side1){
         alert("Not a definite Triangle");
+        window.location.href="not-a-triangle.html";
     }
     else {
         alert("This is a Scalene Triangle");
